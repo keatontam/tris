@@ -19,6 +19,7 @@ It has not been tested so far, but you will likely need to use pygame 2 found he
 https://github.com/pygame/pygame/releases/tag/2.0.0
 as it is backwards compatible with all pygame applications and does not encounter dependencies between the old 
 pygame 1 and Python 3.9.
+pygame 1's last update was in mid-late 2020 and is likely no longer compatible with current Python 3.
 In moving Tris to this repository, we found that pygame's mixer library relating to sound-file reading may only 
 function correctly on applications using at latest Python 2.7. A further disclaimer will be added if we find
 that converting to pygame 2 causes the noted sound issues to be fixed when using the most up-to-date versions
